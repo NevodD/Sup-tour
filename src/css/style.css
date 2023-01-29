@@ -10,4 +10,8 @@
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
           clip-path: inset(100%);
+}
+
+body {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
