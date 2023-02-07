@@ -14,4 +14,111 @@
 
 body {
   margin: 0;
+  font-family: "Play", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: block;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.header {
+  min-height: 112px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.header__logo {
+  margin-top: 1px;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 405px;
+  margin: 8px 7px 8px 80px;
+}
+
+.header-menu-list__link {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.header-contacts__item {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.header-contacts__item--feedback {
+  min-width: 189px;
+  min-height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  padding: 4.5%;
+  margin-right: 2px;
+}
+
+.header-contacts__item--tel {
+  margin-top: 2px;
+  margin-right: 2px;
+  padding-bottom: 0;
+  padding-top: 12px;
+  text-align: right;
+}
+
+.offer {
+  min-height: 835px;
+  box-sizing: border-box;
+  padding-top: 222px;
+  background: #8185A2;
+  background-image: url(../img/offer/offer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 400;
+  max-width: 883px;
+  margin-bottom: 34px;
+}
+
+.offer-text {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.offer-social {
+  padding: 32px 0;
+  margin-right: 2px;
 }/*# sourceMappingURL=style.css.map */
